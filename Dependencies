@@ -1,0 +1,39 @@
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h
+Vertex.o: Vertex.cpp Vertex.h
+Texture.o: Texture.cpp Texture.h
+Normal.o: Normal.cpp Normal.h Vertex.h
+Face.o: Face.cpp Face.h Vertex.h Normal.h Texture.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+main.o: main.cpp Vertex.h Texture.h Normal.h Face.h Parser.h
+Parser.o: Parser.cpp Parser.h Face.h Vertex.h Normal.h Texture.h

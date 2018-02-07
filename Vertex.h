@@ -1,19 +1,22 @@
-// STL
+#ifndef __VERTEX_H__
+#define __VERTEX_H__
 
-using namespace std;
 class Vertex{
 
-private:
-	GLfloat x;
-	GLfloat y;
-	GLfloat z;
-
 public:
-	Vertex(GLfloat xcoor, GLfloat ycoor, GLfloat zcoor){x=xcoor; y=ycoor; z=zcoor;};
-	GLfloat getX(){return x;};
-	GLfloat getY(){return y;};
-	GLfloat getZ(){return z;};
-	void setX(GLfloat xcoor){x = xcoor;};
-	void setY(GLfloat ycoor){y = ycoor;};
-	void setZ(GLfloat zcoor){z = zcoor;};
+	Vertex();
+  float xcoor;
+  float ycoor;
+  float zcoor;
+
+  float getX();
+  float getY();
+  float getZ();
+  void setX(float x);
+  void setY(float y);
+  void setZ(float z);
+
+
+
 };
+#endif

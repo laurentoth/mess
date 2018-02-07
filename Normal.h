@@ -1,21 +1,29 @@
-// STL
-
-using namespace std;
-
+#ifndef NORMAL_H
+#define NORMAL_H
+#include "Vertex.h"
 
 class Normal{
 
+
+
 private:
-	GLfloat x;
-	GLfloat y;
-	GLfloat z;
+
+	float x;
+	float y;
+	float z;
+
+
 
 public:
-	Normal(GLfloat xcoor, GLfloat ycoor, GLfloat zcoor){x=xcoor; y=ycoor; z=zcoor;};
-	GLfloat getX(){return x;};
-	GLfloat getY(){return y;};
-	GLfloat getZ(){return z;};
-	void setX(GLfloat xcoor){x = xcoor;};
-	void setY(GLfloat ycoor){y = ycoor;};
-	void setZ(GLfloat zcoor){z = zcoor;};
+	Normal(){};
+	Normal(float xcoor, float ycoor, float zcoor){};
+	float getX();
+	float getY();
+	float getZ();
+	void setX(float xcoor);
+	void setY(float ycoor);
+	void setZ(float zcoor);
+	void calculateNormal(Vertex one, Vertex two, Vertex three);
+
 };
+#endif

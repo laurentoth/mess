@@ -1,21 +1,25 @@
 // STL
-
-using namespace std;
+#ifndef TEXTURE_H
+#define TEXTURE_H
 
 class Texture{
 
 private:
-	GLfloat x;
-	GLfloat y;
-	GLfloat z;
+
+	float x;
+	float y;
+	float z;
 
 public:
-	Texture(GLfloat xcoor, GLfloat ycoor, GLfloat zcoor){x=xcoor; y=ycoor; z=zcoor;};
-	Texture(GLfloat xcoor, GLfloat ycoor){x=xcoor; y=ycoor;};
-	GLfloat getX(){return x;};
-	GLfloat getY(){return y;};
-	GLfloat getZ(){return z;};
-	void setX(GLfloat xcoor){x = xcoor;};
-	void setY(GLfloat ycoor){y = ycoor;};
-	void setZ(GLfloat zcoor){z = zcoor;};
+	Texture(){};
+	Texture(float xcoor, float ycoor, float zcoor);
+	Texture(float xcoor, float ycoor);
+	float getX();
+	float getY();
+	float getZ();
+	void setX(float xcoor);
+	void setY(float ycoor);
+	void setZ(float zcoor);
+
 };
+#endif
